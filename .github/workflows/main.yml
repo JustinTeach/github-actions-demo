@@ -1,9 +1,14 @@
+# Name of workflow
 name: Lint workflow
+
+# Trigger workflow on all pull requests
 on:
   pull_request:
     branches:
       - develop
       - staging
+
+# Jobs to carry out
 jobs:
   test:
     # Operating system to run job on
