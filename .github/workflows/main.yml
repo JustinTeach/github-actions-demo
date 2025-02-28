@@ -7,11 +7,12 @@ on:
     branches:
       - develop
       - staging
+      - main
 
 # Jobs to carry out
 jobs:
   test:
-    # Operating system to run job on
+    # Operating system to run job onsdf
     runs-on: ubuntu-latest
 
     # Steps in job
